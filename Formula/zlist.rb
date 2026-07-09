@@ -6,25 +6,25 @@ class Zlist < Formula
   # Use the prebuilt release archive matching the user's platform.
   on_macos do
     on_arm do
-      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.2/zl-aarch64-macos-none.tar.gz"
-      sha256 "efb70e44119c630f5575258797d842834d412f32ac956c9303f729436d6d6616"
+      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.3/zl-aarch64-macos-none.tar.gz"
+      sha256 "a1dbc73b7ab4f3415c55271cf0f1b6b82fa8f7277c38dc91f791e9d7ff00a1b1"
     end
 
     on_intel do
-      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.2/zl-x86_64-macos-none.tar.gz"
-      sha256 "995ec03ce4ed635d64bf4cc0be7f7a73daa20b041a6b9ffdf5dee1acc5ab9975"
+      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.3/zl-x86_64-macos-none.tar.gz"
+      sha256 "748e9c3f5d7edbdaecaec4c660f0e70883acfe456a424ecfd9f1ad1fd36083c9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.2/zl-aarch64-linux-gnu.tar.gz"
-      sha256 "eedd05cf2869f9b09b57cb4f48206dd00402e7cb733e5a95f00f1c5e3b43dd57"
+      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.3/zl-aarch64-linux-gnu.tar.gz"
+      sha256 "c50c3c0d417f36963b309875d21b3ef55a4245240355076075e8afd97f77c26f"
     end
 
     on_intel do
-      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.2/zl-x86_64-linux-gnu.tar.gz"
-      sha256 "a02fdee7283d6d050f568db51af3d3e838a8b10dde3df7adf1e2fcbb64f288c7"
+      url "https://github.com/here-Leslie-Lau/zlist/releases/download/v0.1.3/zl-x86_64-linux-gnu.tar.gz"
+      sha256 "da94d89aa461b7de4360e768fe345029fa46cbc2b308dca8bd22dedb7f208141"
     end
   end
 
